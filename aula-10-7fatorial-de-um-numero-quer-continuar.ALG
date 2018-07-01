@@ -1,4 +1,9 @@
 algoritmo "Fatorial de um número"
+// Disciplina  : Curso de Algoritmo e Lógica de Programação
+// Professor   : Gustavo Guanabara
+// Descrição   : Entra um valor, sai o fatorial do mesmo e se quero continuar fazendo isso.
+// Autor(a)    : Ari Melo
+// Data atual  : 01/07/2018
 var
    c,n,f:inteiro
    resp:caractere
@@ -9,7 +14,7 @@ inicio
            c<-n
            f<-1
            repita
-                f<-f*c
+                f<-f*c //Cálculo fatorial do número digitado
                 c<-c-1
            ate(c<1)
            escreval("O valor do fatorial de",n," é igual a:",f)
