@@ -5,9 +5,13 @@ Algoritmo "Par ou ímpar"
 // Autor(a)    : Ari Melo
 // Data atual  : 30/06/2018
 Var
-
-
+   v:inteiro
 Inicio
-
-
+      escreva("Digite um valor: ")
+      leia(v)
+      se(v%2=0)entao //Testa o valor por meio de um cálculo de resto da divisão
+           escreva("O valor é PAR")
+      senao
+           escreva("O valor é ÍMPAR")
+      fimse
 Fimalgoritmo

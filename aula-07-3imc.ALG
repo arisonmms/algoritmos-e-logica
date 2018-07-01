@@ -5,9 +5,12 @@ Algoritmo "Cálculo do IMC"
 // Autor(a)    : Ari Melo
 // Data atual  : 30/06/2018
 Var
-
-
+   altura,peso,imc:real
 Inicio
-
-
+      escreva("Qual a sua altura? ")
+      leia(altura)
+      escreva("Qual o seu peso? ")
+      leia(peso)
+      imc<-peso/(altura^2) //Cálculo usado para saber o IMC(Índice de Massa Muscular) de alguém
+      escreva("Seu IMC é",imc:4:2)
 Fimalgoritmo
