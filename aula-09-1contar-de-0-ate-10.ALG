@@ -1,15 +1,13 @@
-Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 22/06/2018
+Algoritmo "Contar de 0 até 10"
+// Disciplina  : Curso de Algoritmo e Lógica de Programação
+// Professor   : Gustavo Guanabara
+// Descrição   : Irá contar de 0 até 10. Simples.
+// Autor(a)    : Ari Melo
+// Data atual  : 01/07/2018
 Var
-// Seção de Declarações das variáveis 
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
 
 
 Fimalgoritmo

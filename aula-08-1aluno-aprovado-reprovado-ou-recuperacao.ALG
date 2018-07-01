@@ -1,15 +1,13 @@
-Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
+Algoritmo "Aluno aprovado, reprovado ou em recuperação"
+// Disciplina  : Curso de Algoritmo e Lógica de Programação
+// Professor   : Gustavo Guanabara
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 22/06/2018
+// Autor(a)    : Ari Melo
+// Data atual  : 01/07/2018
 Var
-// Seção de Declarações das variáveis 
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
 
 
 Fimalgoritmo

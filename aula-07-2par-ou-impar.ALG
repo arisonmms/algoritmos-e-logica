@@ -1,15 +1,13 @@
-Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 22/06/2018
+Algoritmo "Par ou ímpar"
+// Disciplina  : Curso de Algoritmo e Lógica de Programação
+// Professor   : Gustavo Guanabara
+// Descrição   : Entra um valor, verifica se o valor é par ou ímpar.
+// Autor(a)    : Ari Melo
+// Data atual  : 30/06/2018
 Var
-// Seção de Declarações das variáveis 
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
 
 
 Fimalgoritmo
