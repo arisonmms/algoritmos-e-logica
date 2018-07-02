@@ -12,5 +12,5 @@ Inicio
       escreva("Qual o seu peso? ")
       leia(peso)
       imc<-peso/(altura^2) //Cálculo usado para saber o IMC(Índice de Massa Muscular) de alguém
-      escreva("Seu IMC é",imc:4:2)
+      escreva("Seu IMC é ",imc:4:2)
 Fimalgoritmo
