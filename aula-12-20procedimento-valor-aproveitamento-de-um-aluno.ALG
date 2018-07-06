@@ -7,16 +7,23 @@ Algoritmo "Aproveitamento de um aluno procedimento valor"
 Var
    n1,n2,media:real
    apro:caractere
-Inicio
+
+
+procedimento linha()
+inicio
+      escreval("---------------------")
+fimprocedimento
+
+procedimento topo()
+inicio
       escreval("---------------------")
       escreval(" ESCOLA RAIO DO LUAR ")
       escreval("---------------------")
-      escreva("Primeira Nota: ")
-      leia(n1)
-      escreva("Segunda Nota: ")
-      leia(n2)
+fimprocedimento
+
+procedimento aproveitamento(n1,n2:inteiro)
+inicio
       media<-(n1+n2)/2 //Cálculo para saber a média
-      escreval("---------------------")
       escreval(" MÉDIA:",media)
       escolha media //Estrutura condicional pouco usada, mas dependendo do projeto economiza algumas linhas de código e ajuda o entendimento do mesmo
       caso 10
@@ -32,7 +39,18 @@ Inicio
       caso 5
           apro<-"F"
       fimescolha
-      escreval(" APROVEITAMENTO: ",apro)
-      escreval("---------------------")
+fimprocedimento
 
+Inicio
+      topo()//Chama o procedimento
+      escreva("Primeira Nota: ")
+      leia(n1)
+      escreva("Segunda Nota: ")
+      leia(n2)
+      limpatela
+      topo()//Chama o procedimento
+      linha()//Chama o procedimento
+      aproveitamento(n1,n2)//Chama o procedimento
+      escreval(" APROVEITAMENTO: ",apro)
+      linha()//Chama o procedimento
 Fimalgoritmo
