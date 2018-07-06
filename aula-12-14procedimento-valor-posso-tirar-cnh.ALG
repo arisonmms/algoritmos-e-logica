@@ -5,16 +5,21 @@ Algoritmo "Posso tirar CNH"
 // Autor(a)    : Ari Melo
 // Data atual  : 30/06/2018
 Var
-   ano_atual,ano_nasc,idade:inteiro
-Inicio
+   ano_atual,ano_nasc:inteiro
+
+procedimento topo()
+inicio
       escreval("--------------------------")
       escreval(" DEPARTAMENTO DE TRÂNSITO ")
       escreval("--------------------------")
-      escreva("Ano atual (yyyy): ")
-      leia(ano_atual)
-      escreva("Ano de Nascimento (yyyy): ")
-      leia(ano_nasc)
-      idade<-ano_atual-ano_nasc //Cálculo para saber a idade com margem de erro de um ano de idade
+fimprocedimento
+   
+procedimento habilitacao(a,b:inteiro)
+var idade:inteiro
+inicio
+      limpatela
+      topo()
+      idade<-a-b //Cálculo para saber a idade com margem de erro de um ano de idade
       escreval("-------- STATUS --------")
       escreval(" IDADE:",idade)
       se(idade>=18)entao //Testa se o usuário é de maior
@@ -23,4 +28,13 @@ Inicio
            escreval(" INAPTO À TIRAR CARTEIRA")
       fimse
       escreval("------------------------")
+fimprocedimento
+
+Inicio
+      topo()
+      escreva("Ano atual (yyyy): ")
+      leia(ano_atual)
+      escreva("Ano de Nascimento (yyyy): ")
+      leia(ano_nasc)
+      habilitacao(ano_atual,ano_nasc)
 Fimalgoritmo
