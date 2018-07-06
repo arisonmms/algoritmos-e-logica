@@ -19,5 +19,5 @@ Inicio
       leia(ano_atual)
       escreva("Qual o ano do seu nascimento? ")
       leia(ano_nasc)
-      anos_idade(ano_atual,ano_nasc)
+      anos_idade(ano_atual,ano_nasc)//Chama o procedimento
 Fimalgoritmo
